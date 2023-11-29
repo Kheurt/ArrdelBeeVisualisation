@@ -1,0 +1,1 @@
+"C:\Program Files\PostgreSQL\15\bin\psql.exe" -h localhost -U postgres -d arrdelbee -p 54321

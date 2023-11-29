@@ -1,0 +1,12 @@
+class RessourceZoneViewset(ModelViewSet):
+
+    serializer_class = RessourceZoneSerializer
+
+    queryset = RessourceZone.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset

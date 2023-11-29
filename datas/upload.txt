@@ -1,0 +1,1 @@
+\copy app_locality from 'datas/Localite.csv' delimiter ';' CSV HEADER;
