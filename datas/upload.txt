@@ -1,1 +1,1 @@
-\copy app_locality from 'datas/Localite.csv' delimiter ';' CSV HEADER;
+\copy app_localite from 'datas/Localite.csv' delimiter ';' CSV HEADER;

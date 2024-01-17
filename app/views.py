@@ -21,11 +21,103 @@ import os
 import random
 User = get_user_model()
 
-class CountryViewset(ModelViewSet):
 
-    serializer_class = CountrySerializer
+class FinanceViewset(ModelViewSet):
 
-    queryset = Country.objects.all()
+    serializer_class = FinanceSerializer
+
+    queryset = Finance.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class FinancementViewset(ModelViewSet):
+
+    serializer_class = FinancementSerializer
+
+    queryset = Financement.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class InfrastructureViewset(ModelViewSet):
+
+    serializer_class = InfrastructureSerializer
+
+    queryset = Infrastructure.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class LocaliteViewset(ModelViewSet):
+
+    serializer_class = LocaliteSerializer
+
+    queryset = Localite.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class MInfrastructureViewset(ModelViewSet):
+
+    serializer_class = MInfrastructureSerializer
+
+    queryset = MInfrastructure.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class MinistereViewset(ModelViewSet):
+
+    serializer_class = MinistereSerializer
+
+    queryset = Ministere.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class ODDCibleViewset(ModelViewSet):
+
+    serializer_class = ODDCibleSerializer
+
+    queryset = ODDCible.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class PaysViewset(ModelViewSet):
+
+    serializer_class = PaysSerializer
+
+    queryset = Pays.objects.all()
     filter_backends = [SearchFilter, OrderingFilter]
     search_fields = ['entitled','is_true']
     filter_fields = ['entitled','is_true']
@@ -37,33 +129,6 @@ class CountryViewset(ModelViewSet):
             
         return self.queryset
 
-class LocalityViewset(ModelViewSet):
-
-    serializer_class = LocalitySerializer
-
-    queryset = Locality.objects.all()
-    filter_backends = [SearchFilter, OrderingFilter]
-    search_fields = ['entitled','is_true']
-    filter_fields = ['entitled','is_true']
-
-    def get_queryset(self):
-            
-        return self.queryset
-
-
-class ZoneViewset(ModelViewSet):
-
-    serializer_class = ZoneSerializer
-
-    queryset = Zone.objects.all()
-    filter_backends = [SearchFilter, OrderingFilter]
-    search_fields = ['entitled','is_true']
-    filter_fields = ['entitled','is_true']
-
-    def get_queryset(self):
-            
-        return self.queryset
-    
 class PaysageUrbainViewset(ModelViewSet):
 
     serializer_class = PaysageUrbainSerializer
@@ -76,9 +141,97 @@ class PaysageUrbainViewset(ModelViewSet):
     def get_queryset(self):
             
         return self.queryset
-    
-class RessourceZoneViewset(ModelViewSet):
 
+class PotentialitesDesZonesViewset(ModelViewSet):
+
+    serializer_class = PotentialitesDesZonesSerializer
+
+    queryset = PotentialitesDesZones.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class ProblemeViewset(ModelViewSet):
+
+    serializer_class = ProblemeSerializer
+
+    queryset = Probleme.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class ProgrammesDesMinistereViewset(ModelViewSet):
+
+    serializer_class = ProgrammesDesMinisteresSerializer
+
+    queryset = ProgrammesDesMinisteres.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class ProvenanceFinanceViewset(ModelViewSet):
+
+    serializer_class = ProvenanceFinanceSerializer
+
+    queryset = ProvenanceFinance.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class RegionViewset(ModelViewSet):
+
+    serializer_class = RegionSerializer
+
+    queryset = Region.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+            
+        return self.queryset
+
+class RessourcesViewset(ModelViewSet):
+
+    serializer_class = RessourceSerializer
+
+    queryset = Ressource.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+        # filter by region
+        # region_id = self.request.query_params.get('region_id')
+        # if region_id is not None:
+        #     self.queryset = self.queryset.filter(CodeRegion=region_id)
+        
+        # add filter for each param in .models.zone
+        for param in self.request.query_params:
+            if param in self.queryset.model._meta.get_fields():
+                self.queryset = self.queryset.filter(**{param: self.request.query_params.get(param)})     
+        # add pagination to result
+        # page = self.paginate_queryset(self.queryset)
+        return self.queryset
+
+class RessourceZoneViewset(ModelViewSet):
+    
     serializer_class = RessourceZoneSerializer
 
     queryset = RessourceZone.objects.all()
@@ -88,4 +241,27 @@ class RessourceZoneViewset(ModelViewSet):
 
     def get_queryset(self):
             
+        return self.queryset
+
+class ZoneViewset(ModelViewSet):
+
+    serializer_class = ZoneSerializer
+
+    queryset = Zone.objects.all()
+    filter_backends = [SearchFilter, OrderingFilter]
+    search_fields = ['entitled','is_true']
+    filter_fields = ['entitled','is_true']
+
+    def get_queryset(self):
+        # filter by region
+        # region_id = self.request.query_params.get('region_id')
+        # if region_id is not None:
+        #     self.queryset = self.queryset.filter(CodeRegion=region_id)
+        
+        # add filter for each param in .models.zone
+        for param in self.request.query_params:
+            if param in self.queryset.model._meta.get_fields():
+                self.queryset = self.queryset.filter(**{param: self.request.query_params.get(param)})     
+        # add pagination to result
+        # page = self.paginate_queryset(self.queryset)
         return self.queryset

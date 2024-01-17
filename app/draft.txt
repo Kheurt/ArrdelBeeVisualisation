@@ -10,3 +10,7 @@ class RessourceZoneViewset(ModelViewSet):
     def get_queryset(self):
             
         return self.queryset
+
+
+# Task
+add filters in RessourceZone and Zones

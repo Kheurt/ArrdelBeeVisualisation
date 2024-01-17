@@ -1,30 +1,44 @@
 from django.urls import path, include
-from .views import CountryViewset, LocalityViewset, RessourceZoneViewset, PaysageUrbainViewset, ZoneViewset
-from .upload_data import upload_country, upload_locality, upload_zone, upload_paysage_urbain, upload_ressource_zone
+from .views import *
+from .upload_data import *
 
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('country', CountryViewset),
-router.register('locality', LocalityViewset),
+router.register('pays', PaysViewset),
+router.register('localite', LocaliteViewset),
 router.register('zone', ZoneViewset),
 router.register('paysageUrbain', PaysageUrbainViewset),
 router.register('ressourceZone', RessourceZoneViewset),
 
-# Country
-# Locality
+# Pays
+# Localite
 # Zone
 # PaysageUrbain
 # RessourceZone
 
 urlpatterns = [
     path('', include(router.urls)), 
-    path('country/upload', upload_country),
-    path('locality/upload', upload_locality),
-    path('zone/upload', upload_zone),
-    path('paysageUrbain/upload', upload_paysage_urbain),
-    path('ressourceZone/upload', upload_ressource_zone),
-    # path('locality/upload', LocalityViewset.as_view()),
+    path('upload/finance', upload_finance),
+    path('upload/financement', upload_financement),
+    path('upload/infrastructure', upload_infrastructure),
+    path('upload/localite', upload_localite),
+    path('upload/minfrastructure', upload_m_infrastructure),
+    path('upload/ministere', upload_ministere),
+    path('upload/oddcible', upload_oddcible),
+    path('upload/pays', upload_pays),
+    path('upload/paysageUrbain', upload_paysage_urbain),
+    path('upload/potentialitesDesZones', upload_potentialite_des_zones),
+    path('upload/probleme', upload_probleme),
+    path('upload/programmesDesMinisteres', upload_programme_des_ministeres),
+    path('upload/provenancesFinances', upload_provenance_des_finances),
+    path('upload/region', upload_region),
+    path('upload/ressources', upload_ressource),
+    # path('upload/ressourceHumaine', upload_ressource_humaine),
+    path('upload/ressourceZone', upload_ressource_zone),
+    path('upload/zone', upload_zone),
+
+    # path('localite/upload', LocaliteViewset.as_view()),
     # path('zone/upload', ZoneViewset.as_view()),
     # path('paysageUrbain/upload', PaysageUrbainViewset.as_view()),
     # path('ressourceZone/upload', RessourceZoneViewset.as_view()),

@@ -10,8 +10,8 @@ class AuthUser(AbstractUser):
         return f"{self.first_name} {self.last_name} ({self.username})"
 
 """
-Country
-Locality
+Pays
+Localite
 Zone
 PaysageUrbain
 RessourceZone
@@ -38,7 +38,7 @@ from django.db import models
     date_Reunification
     date_Unification
 """
-class Country(models.Model):
+class Pays(models.Model):
     id = models.BigAutoField(primary_key=True)
     enr = models.IntegerField()
     code = models.CharField(max_length=2)
@@ -58,6 +58,9 @@ class Country(models.Model):
     date_Independance = models.CharField(max_length=255)
     date_Reunification = models.CharField(max_length=255)
     date_Unification = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"N° Enr. {self.enr} - {self.name}"
 
 
 """
@@ -117,7 +120,7 @@ OExistenceComitéDeveloppement
 Accessible
 
 """
-class Locality(models.Model):
+class Localite(models.Model):
 
     id = models.BigAutoField(primary_key=True)
     enr = models.IntegerField()
@@ -173,6 +176,9 @@ class Locality(models.Model):
     ONombreQuartier = models.IntegerField()
     OExistenceComiteDeveloppement = models.IntegerField()
     Accessible = models.IntegerField()
+
+    def __str__(self) -> str:
+        return f"N° Enr. {self.enr} - {self.Libelle}"
 
 
 """
@@ -248,6 +254,9 @@ class Zone(models.Model):
     Limites = models.CharField(max_length=255)
     Localisation = models.CharField(max_length=255)
 
+    def __str__(self) -> str:
+        return f"N° Enr. {self.enr} - {self.IDZone} : {self.Zone}, {self.Pays} ({self.CodePays}), {self.Region} ({self.CodeRegion}), {self.Departement} ({self.CodeDepartement}), {self.Commune} ({self.CodeCommune}), {self.Localite} ({self.CodeLocalite})"
+
 
 """
 Paysage Urbain
@@ -277,6 +286,9 @@ class PaysageUrbain(models.Model):
     Causes = models.TextField()
     Consequences = models.TextField()
     Solutions = models.TextField()
+
+    def __str__(self) -> str:
+        return f"N° Enr. {self.enr} - {self.UnitePaysage}"
 
 """
 Ressource Zone
@@ -318,4 +330,315 @@ class RessourceZone(models.Model):
     CoordZ = models.CharField(max_length=255)
     ModeGestion = models.CharField(max_length=255)
     Tendances = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"N° Enr. {self.enr} - {self.Ressource}. Map: ({self.CoordX}, {self.CoordY}, {self.CoordZ})"
+
+"""
+N° Enr.
+Ressource
+IDRessource
+NomUsuel
+NomScientifique
+NomCommercial
+IDTypesRessouces
+"""
+class Ressource(models.Model):
+
+    id = models.BigAutoField(primary_key=True)
+    enr = models.IntegerField()
+    Ressource = models.CharField(max_length=255)
+    IDRessource = models.CharField(max_length=255)
+    NomUsuel = models.CharField(max_length=255)
+    NomScientifique = models.CharField(max_length=255)
+    NomCommercial = models.CharField(max_length=255)
+    IDTypesRessouces = models.CharField(max_length=255)
+
+
+"""
+N° Enr.
+ID_Finance
+IDZone
+IDExercice
+Budget
+BudgetPrevu
+FPrevu
+FRealise
+IPrevu
+IRealise
+DPrevu
+DRealise
+RPrevu
+RRealise
+"""
+class Finance(models.Model):
+
+    id = models.BigAutoField(primary_key=True)
+    enr = models.IntegerField()
+    ID_Finance = models.BigIntegerField()
+    IDZone = models.BigIntegerField()
+    IDExercice = models.IntegerField() #Année de l'excercice
+    Budget = models.FloatField()
+    BudgetPrevu = models.FloatField()
+    FPrevu = models.FloatField()
+    FRealise = models.FloatField()
+    IPrevu = models.FloatField()
+    IRealise = models.FloatField()
+    DPrevu = models.FloatField()
+    DRealise = models.FloatField()
+    RPrevu = models.FloatField()
+    RRealise = models.FloatField()
+
+"""
+N° Enr.
+ID_Source
+ID_Finance
+IDTFinance
+Provenance
+DateDebut
+DateFin
+MontantPrevu
+MontantRealise
+Observation
+"""
+
+class Financement(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    Enr = models.IntegerField()
+    ID_Source = models.BigIntegerField()
+    ID_Finance = models.BigIntegerField()
+    IDTFinance = models.BigIntegerField()
+    Provenance = models.CharField(max_length=255)
+    DateDebut = models.CharField(max_length=255)
+    DateFin = models.CharField(max_length=255)
+    MontantPrevu = models.FloatField()
+    MontantRealise = models.FloatField()
+    Observation = models.TextField()
+
+"""
+N° Enr.
+ID_Infrastructure
+IDZone
+Libelle
+Etat
+CoordX
+CoordY
+CoordZ
+Qte
+NWPT
+Beneficiaire
+Date
+Observation
+GroupeInfrastructure
+"""
+class Infrastructure (models.Model):
+    Enr = models.IntegerField()
+    ID_Infrastructure = models.CharField(max_length=255)
+    IDZone = models.CharField(max_length=255)
+    Libelle = models.CharField(max_length=255)
+    Etat = models.CharField(max_length=255)
+    CoordX = models.CharField(max_length=255)
+    CoordY = models.CharField(max_length=255)
+    CoordZ = models.CharField(max_length=255)
+    Qte = models.CharField(max_length=255)
+    NWPT = models.CharField(max_length=255)
+    Beneficiaire = models.CharField(max_length=255)
+    Date = models.CharField(max_length=255)
+    Observation = models.CharField(max_length=255)
+    GroupeInfrastructure = models.CharField(max_length=255)
+
+
+"""
+N° Enr.
+MInfrastructure
+IDCadre
+TInfrastructures
+IDMInfrastructure
+IDTInfrastructure
+"""
+class MInfrastructure(models.Model):
+    Enr = models.IntegerField()
+    MInfrastructure = models.CharField(max_length=255)
+    IDCadre = models.CharField(max_length=255)
+    TInfrastructures = models.CharField(max_length=255)
+    IDMInfrastructure = models.CharField(max_length=255)
+    IDTInfrastructure = models.CharField(max_length=255)
+
+"""
+N° Enr.
+IDSecteur
+IDChapitre
+CodeChapitre
+Libelle
+LibelleAng
+Responsable
+Ministere
+Objectifs
+Description
+Strategie
+"""
+class Ministere(models.Model):
+    Enr = models.IntegerField()
+    IDSecteur = models.CharField(max_length=255)
+    IDChapitre = models.CharField(max_length=255)
+    CodeChapitre = models.CharField(max_length=255)
+    Libelle = models.CharField(max_length=255)
+    LibelleAng = models.CharField(max_length=255)
+    Responsable = models.CharField(max_length=255)
+    Ministere = models.CharField(max_length=255)
+    Objectifs = models.CharField(max_length=255)
+    Description = models.CharField(max_length=255)
+    Strategie = models.CharField(max_length=255)
+
+"""
+N° Enr.
+IDODDCibles
+IDChapitre
+IDCorrelation
+ID
+"""
+class ODDCible(models.Model):
+    Enr = models.IntegerField()
+    IDODDCibles = models.CharField(max_length=255)
+    IDChapitre = models.CharField(max_length=255)
+    IDCorrelation = models.CharField(max_length=255)
+    ID = models.CharField(max_length=255)
+
+"""
+N° Enr.
+ID_Potentialite
+IDZoneIDCadre
+Potentialites
+Ressources
+IDZone
+IDCadre
+"""
+class PotentialitesDesZones(models.Model):
+    Enr = models.IntegerField()
+    ID_Potentialite = models.CharField(max_length=255)
+    IDZoneIDCadre = models.CharField(max_length=255)
+    Potentialites = models.CharField(max_length=255)
+    Ressources = models.CharField(max_length=255)
+    IDZone = models.CharField(max_length=255)
+    IDCadre = models.CharField(max_length=255)
+
+"""
+N° Enr.
+IDZoneIDCadre
+ID_Probleme
+IDProbleme
+Probleme
+IDZone
+Archive
+IDCadre
+IDSource
+_MiseAJour
+"""
+class Probleme(models.Model):
+    Enr = models.IntegerField()
+    IDZoneIDCadre = models.CharField(max_length=255)
+    ID_Probleme = models.CharField(max_length=255)
+    IDProbleme = models.CharField(max_length=255)
+    Probleme = models.CharField(max_length=255)
+    IDZone = models.CharField(max_length=255)
+    Archive = models.CharField(max_length=255)
+    IDCadre = models.CharField(max_length=255)
+    IDSource = models.CharField(max_length=255)
+    _MiseAJour = models.CharField(max_length=255)
+
+"""
+N° Enr.
+IDChapitre
+IDProgramme
+CodeProgramme
+Libelle
+Objectifs
+LibelleAng
+Coordination
+horizon
+Date_debut
+Date_fin
+Montant
+Responsable
+Description
+Axes
+Strategie
+Resultats
+hypothese
+"""
+class ProgrammesDesMinisteres(models.Model):
+    Enr = models.IntegerField()
+    IDChapitre = models.CharField(max_length=255)
+    IDProgramme = models.CharField(max_length=255)
+    CodeProgramme = models.CharField(max_length=255)
+    Libelle = models.CharField(max_length=255)
+    Objectifs = models.CharField(max_length=255)
+    LibelleAng = models.CharField(max_length=255)
+    Coordination = models.CharField(max_length=255)
+    horizon = models.CharField(max_length=255)
+    Date_debut = models.CharField(max_length=255)
+    Date_fin = models.CharField(max_length=255)
+    Montant = models.CharField(max_length=255)
+    Responsable = models.CharField(max_length=255)
+    Description = models.CharField(max_length=255)
+    Axes = models.CharField(max_length=255)
+    Strategie = models.CharField(max_length=255)
+    Resultats = models.CharField(max_length=255)
+    hypothese = models.CharField(max_length=255)
+
+"""
+N° Enr.
+ID_Source
+ID_Finance
+IDTFinance
+Provenance
+DateDebut
+DateFin
+MontantPrevu
+MontantRealise
+Observation
+"""
+class ProvenanceFinance(models.Model):
+    Enr = models.IntegerField()
+    ID_Source = models.CharField(max_length=255)
+    ID_Finance = models.CharField(max_length=255)
+    IDTFinance = models.CharField(max_length=255)
+    Provenance = models.CharField(max_length=255)
+    DateDebut = models.CharField(max_length=255)
+    DateFin = models.CharField(max_length=255)
+    MontantPrevu = models.CharField(max_length=255)
+    MontantRealise = models.CharField(max_length=255)
+    Observation = models.CharField(max_length=255)
+
+"""
+N° Enr.
+Code_Region
+Libelle
+Masculin
+Feminin
+Total
+Code_Pays
+Accessible
+DateCreation
+Densite
+Superficie
+NbDepartement
+NbCommune
+NbLocalite
+"""
+class Region(models.Model):
+    Enr = models.IntegerField()
+    Code_Region = models.CharField(max_length=255)
+    Libelle = models.CharField(max_length=255)
+    Masculin = models.CharField(max_length=255)
+    Feminin = models.CharField(max_length=255)
+    Total = models.CharField(max_length=255)
+    Code_Pays = models.CharField(max_length=255)
+    Accessible = models.CharField(max_length=255)
+    DateCreation = models.CharField(max_length=255)
+    Densite = models.CharField(max_length=255)
+    Superficie = models.CharField(max_length=255)
+    NbDepartement = models.CharField(max_length=255)
+    NbCommune = models.CharField(max_length=255)
+    NbLocalite = models.CharField(max_length=255)
 

@@ -39,7 +39,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='Locality',
+            name='Localite',
             fields=[
                 ('id', models.BigAutoField(primary_key=True, serialize=False)),
                 ('enr', models.IntegerField()),
