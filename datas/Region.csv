@@ -1,4 +1,4 @@
-N° Enr.;Code_Region;Libelle;Masculin;Feminin;Total;Code_Pays;Accessible;DateCreation;Densité;Superficie;NbDepartement;NbCommune;NbLocalité
+NEnr;Code_Region;Libelle;Masculin;Feminin;Total;Code_Pays;Accessible;DateCreation;Densite;Superficie;NbDepartement;NbCommune;NbLocalite
 1;10;ADAMAOUA;438913;445376;884289;1;1;;14,000000;63 701,000000;5;22;0
 2;11;CENTRE;1552362;1545682;3098044;1;1;;45,000000;68 926,000000;10;75;0
 3;12;EST;385145;386610;771755;1;1;;71,000000;10 900,000000;4;18;0

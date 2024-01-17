@@ -89,7 +89,7 @@ def upload_infrastructure(request):
         for row in csv_reader:
             print(f"Importing Infrastructure {row[0]}...")
             infrastructure = Infrastructure(
-                enr=row[0],
+                Enr=row[0],
                 ID_Infrastructure=row[1],
                 IDZone=row[2],
                 Libelle=row[3],

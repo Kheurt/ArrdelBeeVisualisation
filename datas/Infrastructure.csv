@@ -1,140 +1,140 @@
-N° Enr.;ID_Infrastructure;IDZone;Libelle;Etat;CoordX;CoordY;CoordZ;Qte;NWPT;Beneficiaire;Date;Observation;GroupeInfrastructure
-65;141;;SAR.SM;construit;0;0;0;0;0;;;;SAR/SM (Section Artisanat rural/Section Menagère)
+NEnr.;ID_Infrastructure;IDZone;Libelle;Etat;CoordX;CoordY;CoordZ;Qte;NWPT;Beneficiaire;Date;Observation;GroupeInfrastructure
+65;141;;SAR.SM;construit;0;0;0;0;0;;;;SAR/SM (Section Artisanat rural/Section Menagere)
 103;104;;Poste agricole de Manengoteng;pas construit;0;0;0;0;0;;;Construire les postes agricoles de Manengoteng;POSTES AGRICOLES
 105;106;;Poste agricole de Njoumbeng;pas construit;0;0;0;0;0;;;Construire les postes agricoles de Njoumbeng;POSTES AGRICOLES
 106;107;;Poste agricole de Kolla;pas construit;0;0;0;0;0;;;Construire le poste agricole de Kolla;POSTES AGRICOLES
-38;202;110205;SANITAIRE;;0;0;0;0;0;;;;CSI (Centre de Santé Intégré)
+38;202;110205;SANITAIRE;;0;0;0;0;0;;;;CSI (Centre de Sante Integre)
 40;203;110205;SANITAIRE;;0;0;0;0;0;;;;HOPITAL DE DISTRICT
 41;204;110205;SANITAIRE;;0;0;0;0;0;;;;CLINIQUES
 45;209;110205;SCOLAIRES;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
-72;205;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
+72;205;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
 78;208;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-79;207;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
+79;207;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
 109;206;110205;SCOLAIRES;;0;0;0;0;0;;;;ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-33;173;110301;"Réseau routier     
-";Plus de 50 km non bitumé ;0;0;0;0;0;Plus 50. 000 personnes ;;;RESEAU ROUTIER
-37;169;110301;Ecole Primaire; 70 bâtiments;0;0;0;0;0; Plus de 5000 enfants ;;;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-39;167;110301;Ecole maternelle ; 12 bâtiments      ;0;0;0;0;0;Plus de 1000 enfants ;;;ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-42;164;110301;Collège d’enseignement Secondaire ; 50 bâtiments;0;0;0;0;0;Plus de 10.000 enfants ;;;PRIVES (COLLEGE SPECIALISE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-47;159;110301;Structures de santé ; 30 bâtiments ;0;0;0;0;0;Plus de 10.000 personnes ;;;SERVICE DE SANTE DE DISTRICT
-76;130;110301;"Forage/source aménagée 
-"; 17 Forage/source aménagée;0;0;0;0;0;;;;FORAGES (à motricité humaine, à énergie solaire, électrique)
+33;173;110301;"Reseau routier     
+";Plus de 50 km non bitume ;0;0;0;0;0;Plus 50. 000 personnes ;;;RESEAU ROUTIER
+37;169;110301;Ecole Primaire; 70 betiments;0;0;0;0;0; Plus de 5000 enfants ;;;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+39;167;110301;Ecole maternelle ; 12 betiments      ;0;0;0;0;0;Plus de 1000 enfants ;;;ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
+42;164;110301;College deenseignement Secondaire ; 50 betiments;0;0;0;0;0;Plus de 10.000 enfants ;;;PRIVES (COLLEGE SPECIALISE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+47;159;110301;Structures de sante ; 30 betiments ;0;0;0;0;0;Plus de 10.000 personnes ;;;SERVICE DE SANTE DE DISTRICT
+76;130;110301;"Forage/source amenagee 
+"; 17 Forage/source amenagee;0;0;0;0;0;;;;FORAGES (e motricite humaine, e energie solaire, electrique)
 83;123;110301;Scan water;02 en panne    ;0;0;0;0;0;;;;BUREAU CDE
-110;111;110301;Marché ;;0;0;0;0;0;Plus 50. 000 personnes ;;;MARCHES
-1;93;110604;Boutiques;Bon état;0;0;0;0;0;;;;#N/A
-30;176;110604;Salle  de réception;Bon état ;0;0;0;0;0;;;;#N/A
-31;175;110604;"Palais  de congrès 
-";Définitif ;0;0;0;0;0;;;;PALAIS DE CONGRES
-34;172;110604;Tribune officielle;Bon état ;0;0;0;0;0;;;;TRIBUNE DE FÊTE
+110;111;110301;Marche ;;0;0;0;0;0;Plus 50. 000 personnes ;;;MARCHES
+1;93;110604;Boutiques;Bon etat;0;0;0;0;0;;;;#N/A
+30;176;110604;Salle  de reception;Bon etat ;0;0;0;0;0;;;;#N/A
+31;175;110604;"Palais  de congres 
+";Definitif ;0;0;0;0;0;;;;PALAIS DE CONGRES
+34;172;110604;Tribune officielle;Bon etat ;0;0;0;0;0;;;;TRIBUNE DE FeTE
 86;120;110604;"Bureau du maire 
-";Bon état ;0;0;0;0;0;;;;HOTEL DE VILLE
-87;119;110604;"Bâtiment  siège de la mairie 
-  ";Bon état ;0;0;0;0;0;;;;HOTEL DE VILLE
-91;115;110604;L’abattoir;Bon état ;0;0;0;0;0;;;;ABATTOIRS
-111;112;110604;Marché municipal ;Définitif;0;0;0;0;0;;;;MARCHES
-112;113;110604;Marché des vivres ;Mauvais état ;0;0;0;0;0;;;;MARCHES
-90;116;110604019;Hangar Marché;Bon état ;0;0;0;0;0;;;;ABATTOIRS
+";Bon etat ;0;0;0;0;0;;;;HOTEL DE VILLE
+87;119;110604;"Betiment  siege de la mairie 
+  ";Bon etat ;0;0;0;0;0;;;;HOTEL DE VILLE
+91;115;110604;Leabattoir;Bon etat ;0;0;0;0;0;;;;ABATTOIRS
+111;112;110604;Marche municipal ;Definitif;0;0;0;0;0;;;;MARCHES
+112;113;110604;Marche des vivres ;Mauvais etat ;0;0;0;0;0;;;;MARCHES
+90;116;110604019;Hangar Marche;Bon etat ;0;0;0;0;0;;;;ABATTOIRS
 2;217;111002; 01 dispensaire SOS.;;0;0;0;0;0;Population de Mbalmayo;; 01 dispensaire SOS.;HOPITAL DE DISTRICT
 3;216;111002;"Formations  sanitaires  catholiques 
-dont 02 hôpitaux et un dispensaire.";;0;0;0;0;0;Population de Mbalmayo;;"03  formations  sanitaires  catholiques 
-dont 02 hôpitaux et un dispensaire.";SERVICE DE SANTE DE DISTRICT
-4;215;111002; CSI ;;0;0;0;0;0;population de mbalmayo;; 03 CSI ;CSI (Centre de Santé Intégré)
-5;214;111002; Hôpital de district ;;0;0;0;0;0;Population de mbalmayo;; 01 hôpital de district ;HOPITAL DE DISTRICT
-44;211;111002;Ecoles primaires publiques et privées ;;0;0;0;0;0;population de Mbalmayo;;"Quarante    neuf    (49)    écoles    primaires 
-publiques et privées dont vingt cinq (25) en 
+dont 02 hepitaux et un dispensaire.";;0;0;0;0;0;Population de Mbalmayo;;"03  formations  sanitaires  catholiques 
+dont 02 hepitaux et un dispensaire.";SERVICE DE SANTE DE DISTRICT
+4;215;111002; CSI ;;0;0;0;0;0;population de mbalmayo;; 03 CSI ;CSI (Centre de Sante Integre)
+5;214;111002; Hepital de district ;;0;0;0;0;0;Population de mbalmayo;; 01 hepital de district ;HOPITAL DE DISTRICT
+44;211;111002;Ecoles primaires publiques et privees ;;0;0;0;0;0;population de Mbalmayo;;"Quarante    neuf    (49)    ecoles    primaires 
+publiques et privees dont vingt cinq (25) en 
 zone   rurale,   vingt   quatre   (24)   en   zone 
-urbaine   dont   quatre   (04)   relèvent   du 
-système anglophone. ";ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
+urbaine   dont   quatre   (04)   relevent   du 
+systeme anglophone. ";ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
 51;210;111002;"Ecoles maternelles publiques et 
-privées ";;0;0;0;0;0;"population de Mbalmayo   
-";;"Vingt neuf (26) écoles maternelles publiques et 
-privées dont douze (12) en zone urbaine avec 
-quatre  (04)  relevant  du  système  anglophone, 
+privees ";;0;0;0;0;0;"population de Mbalmayo   
+";;"Vingt neuf (26) ecoles maternelles publiques et 
+privees dont douze (12) en zone urbaine avec 
+quatre  (04)  relevant  du  systeme  anglophone, 
 dix sept (14) en zone rurale.";ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-64;212;111002;Etablissements secondaires ;;0;0;0;0;0;Population de Malmayo;;"seize (16) établissements secondaires dont 
-05  Techniques  assurent  l’encadrement  des 
-multiples élèves que compte la Commune.";PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
-108;213;111002;Etablissements de formation;;0;0;0;0;0;jeunes de Mbalmayo;;" huit (8) établissements    de    formation 
-préparent les jeunes au marché de l’emploi";PRIVES (COLLEGE SPECIALISE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
+64;212;111002;Etablissements secondaires ;;0;0;0;0;0;Population de Malmayo;;"seize (16) etablissements secondaires dont 
+05  Techniques  assurent  leencadrement  des 
+multiples eleves que compte la Commune.";PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
+108;213;111002;Etablissements de formation;;0;0;0;0;0;jeunes de Mbalmayo;;" huit (8) etablissements    de    formation 
+preparent les jeunes au marche de leemploi";PRIVES (COLLEGE SPECIALISE, LAeC, CATHOLIQUE,  ISLAMIQUE)
 32;174;130311;Ponts;;0;0;0;0;0;;;;RESEAU ROUTIER
-49;157;130311;Centres de santé;;0;0;0;0;0;;;;CSI (Centre de Santé Intégré)
-52;154;130311;hôpitaux;;0;0;0;0;0;;;;HOPITAL DE DISTRICT
-59;147;130311;CES / lycée;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
-66;140;130311;Mares d'eau pour bétail;;0;0;0;0;0;;;;PARC A BETAIL
+49;157;130311;Centres de sante;;0;0;0;0;0;;;;CSI (Centre de Sante Integre)
+52;154;130311;hepitaux;;0;0;0;0;0;;;;HOPITAL DE DISTRICT
+59;147;130311;CES / lycee;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
+66;140;130311;Mares d'eau pour betail;;0;0;0;0;0;;;;PARC A BETAIL
 70;136;130311;Ecoles;;0;0;0;0;0;;;;ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-75;131;130311;Forage;;0;0;0;0;0;;;;FORAGES (à motricité humaine, à énergie solaire, électrique)
-80;126;130311;Puits;;0;0;0;0;0;;;;PUITS (ouverts, aménagés, à bâches, à réservoir, à motricité humaine, à énergie solaire, électrique)
+75;131;130311;Forage;;0;0;0;0;0;;;;FORAGES (e motricite humaine, e energie solaire, electrique)
+80;126;130311;Puits;;0;0;0;0;0;;;;PUITS (ouverts, amenages, e beches, e reservoir, e motricite humaine, e energie solaire, electrique)
 89;117;130311;Abattoirs;;0;0;0;0;0;;;;ABATTOIRS
-92;114;130311;Marchés;;0;0;0;0;0;;;;MARCHES
+92;114;130311;Marches;;0;0;0;0;0;;;;MARCHES
 6;201;140105;Poste agricole de Manengoteng;pas construit;0;0;0;0;0;;;Construire Poste agricole de Manengoteng;POSTES AGRICOLES
 29;200;140105;Poste agricole de Njoumbeng;pas construit;0;0;0;0;0;;;Construire Poste agricole de Njoumbeng;POSTES AGRICOLES
-36;170;140105;Poste forestier du quartier 4;bon état;0;0;0;0;0;;;Quartier 4;POSTE FORESTIER
+36;170;140105;Poste forestier du quartier 4;bon etat;0;0;0;0;0;;;Quartier 4;POSTE FORESTIER
 46;160;140105;Stade Municipal;mauvais;0;0;0;0;0;;;Construire le stade;STADE MUNICIPAL
-48;158;140105;Service de Santé de District;pas construit;0;0;0;0;0;;;"Quartier 1	 Pas construit";SERVICE DE SANTE DE DISTRICT
-54;152;140105;Hôpital de district;bon état;0;0;0;0;0;;;"Quartier 1  Bon état 
+48;158;140105;Service de Sante de District;pas construit;0;0;0;0;0;;;"Quartier 1	 Pas construit";SERVICE DE SANTE DE DISTRICT
+54;152;140105;Hepital de district;bon etat;0;0;0;0;0;;;"Quartier 1  Bon etat 
 
 ";HOPITAL DE DISTRICT
-56;150;140105;Bureau de poste;bon état;0;0;0;0;0;;;"Quartier 4
+56;150;140105;Bureau de poste;bon etat;0;0;0;0;0;;;"Quartier 4
 	
 
 ";BUREAU DE POSTE
 57;149;140105;DA jeunesse;pas construit;0;0;0;0;0;;;Quartier 4;DA JEUNESSE
 58;148;140105;Centre multifonctionnel pour la promotion;vetuste;0;0;0;0;0;;;"Quartier 4 
-Nécessité de construction";CENTRE MULTIFONCTIONNEL 
-67;139;140105;CZCSV de moumekeng;pas construit;0;0;0;0;0;;;Moumekeng;CZCSV (Centre Zootechnique de Contrôle et de Santé)
-68;138;140105;CZCSV de Ndiand;pas construit;0;0;0;0;0;;;Ndiand;CZCSV (Centre Zootechnique de Contrôle et de Santé)
-69;137;140105;DAEPIA;pas construit;0;0;0;0;0;;;Ndiand/quartier 5;DAEPIA (Délégation d'Arrondissement de l'Elevage,des Pêches et des Industries Animales)
-74;132;140105;Inspection d'Arrondissement;pas construit;0;0;0;0;0;;;" Logé dans une maison en location
+Necessite de construction";CENTRE MULTIFONCTIONNEL 
+67;139;140105;CZCSV de moumekeng;pas construit;0;0;0;0;0;;;Moumekeng;CZCSV (Centre Zootechnique de Contrele et de Sante)
+68;138;140105;CZCSV de Ndiand;pas construit;0;0;0;0;0;;;Ndiand;CZCSV (Centre Zootechnique de Contrele et de Sante)
+69;137;140105;DAEPIA;pas construit;0;0;0;0;0;;;Ndiand/quartier 5;DAEPIA (Delegation d'Arrondissement de l'Elevage,des Peches et des Industries Animales)
+74;132;140105;Inspection d'Arrondissement;pas construit;0;0;0;0;0;;;" Loge dans une maison en location
 Construire l'Inspection d'Arrondissement";INSPECTION D'ARRONDISSEMENT
 84;122;140105;Bureau CDE;non construit;0;0;0;0;0;;;Construire le Bureau CDE;BUREAU CDE
 85;121;140105;Bureau AES-SONEL;non construite;0;0;0;0;0;;;Construire le Bureau AES-SONEL;BUREAU  AES-SONEL
-88;118;140105;Commune de manjo;bon état;0;0;0;0;0;;;bon état;HOTEL DE VILLE
-93;94;140105;Sous-prefecture de Manjo;vetuste;0;0;0;0;0;;;"Réfection en cours 2011  Quartier 1	Pas construit";SOUS-PREFECTURE
-95;96;140105;"Commissariat spécial
-";vetuste;0;0;0;0;0;;;"Besoin d’une réfection     Quartier 1	Pas construit";COMMISSARIAT 
+88;118;140105;Commune de manjo;bon etat;0;0;0;0;0;;;bon etat;HOTEL DE VILLE
+93;94;140105;Sous-prefecture de Manjo;vetuste;0;0;0;0;0;;;"Refection en cours 2011  Quartier 1	Pas construit";SOUS-PREFECTURE
+95;96;140105;"Commissariat special
+";vetuste;0;0;0;0;0;;;"Besoin deune refection     Quartier 1	Pas construit";COMMISSARIAT 
 97;98;140105;Brigarde de gendarmerie;Construit;0;0;0;0;0;;;Quartier 2;GENDARMERIE
-99;100;140105;DADDER de Manjo;bon état;0;0;0;0;0;;;Quartier 1;DAADER (Délégation d'Arrondissement de l'Agriculture et du Développement Rural)
-101;102;140105;Poste agricole de N'lohé;à refectionner;0;0;0;0;0;;;à refectionner;POSTES AGRICOLES
-102;103;140105;Poste agricole de Ngol;bon état;0;0;0;0;0;;;bon état;POSTES AGRICOLES
+99;100;140105;DADDER de Manjo;bon etat;0;0;0;0;0;;;Quartier 1;DAADER (Delegation d'Arrondissement de l'Agriculture et du Developpement Rural)
+101;102;140105;Poste agricole de N'lohe;e refectionner;0;0;0;0;0;;;e refectionner;POSTES AGRICOLES
+102;103;140105;Poste agricole de Ngol;bon etat;0;0;0;0;0;;;bon etat;POSTES AGRICOLES
 104;105;140105;Poste agricole de Moumekenng;pas construit;0;0;0;0;0;;;Construire le poste agricole de Moumekenng;POSTES AGRICOLES
-7;199;170506;Foyer communautaire;;0;0;0;0;0;;;22 villages seulement disposent d’un foyer communautaire dans la commune de Fongo Tongo;FOYER COMMUNAUTAIRE
+7;199;170506;Foyer communautaire;;0;0;0;0;0;;;22 villages seulement disposent deun foyer communautaire dans la commune de Fongo Tongo;FOYER COMMUNAUTAIRE
 8;198;170506;La mairie;;0;0;0;0;0;;;;HOTEL DE VILLE
-9;197;170506;Service zootechnique;;0;0;0;0;0;;;;CZCSV (Centre Zootechnique de Contrôle et de Santé)
-10;196;170506;La sous-préfecture;;0;0;0;0;0;;; ;SOUS-PREFECTURE
-11;195;170506;L’inspection d’Arrondissement de l’éducation de base;;0;0;0;0;0;;;;INSPECTION D'ARRONDISSEMENT
-12;194;170506;Sites touristiques;;0;0;0;0;0;;;En effet, en dehors de la splendide chute de « mami Water » et de la grotte de « Ndemvoh », de nombreux sites touristiques vers lesquels les touristes auraient dû converger demeurent non aménagés (à l’instar de la grotte de  Foo bouh, de Too Folah, de Kwisen, et de Toolepit), ainsi que de  multiples chutes à savoir Apang, Lethiop, Megueu, Djeu, Lewe, Fossong Tchuentchué, Menuet, Loung de FE Tsinkeng, Fovoh, Folepé-Toutegong, Tsiedong et Tikang;Sites touristiques
+9;197;170506;Service zootechnique;;0;0;0;0;0;;;;CZCSV (Centre Zootechnique de Contrele et de Sante)
+10;196;170506;La sous-prefecture;;0;0;0;0;0;;; ;SOUS-PREFECTURE
+11;195;170506;Leinspection deArrondissement de leeducation de base;;0;0;0;0;0;;;;INSPECTION D'ARRONDISSEMENT
+12;194;170506;Sites touristiques;;0;0;0;0;0;;;En effet, en dehors de la splendide chute de e mami Water e et de la grotte de e Ndemvoh e, de nombreux sites touristiques vers lesquels les touristes auraient de converger demeurent non amenages (e leinstar de la grotte de  Foo bouh, de Too Folah, de Kwisen, et de Toolepit), ainsi que de  multiples chutes e savoir Apang, Lethiop, Megueu, Djeu, Lewe, Fossong Tchuentchue, Menuet, Loung de FE Tsinkeng, Fovoh, Folepe-Toutegong, Tsiedong et Tikang;Sites touristiques
 13;193;170506;Un terrain de hand ball ;;0;0;0;0;0;;;un terrain de hand ball ;STADE DE HAND BALL
 14;192;170506;Stade de football;;0;0;0;0;0;;;trois stades de football;STADE MUNICIPAL
-15;191;170506;Marchés;;0;0;0;0;0;;;Mboua, Melang King Place, Latchouet, Apouh sont les 04 principaux marchés périodiques et permanents. 05 autres marchés secondaires  (Megueu, Ndento, Mekouale, Djeubou, Fossong Tchuentchué)  ;MARCHES
-16;190;170506;Bacs à ordures;;0;0;0;0;0;;;04 des bacs à ordures;BACS A ORDURES
-17;189;170506;Latrines dans les établissement secondaires;;0;0;0;0;0;;;04 établissements secondaires ont des latrines fonctionnelles (Dedah-Toufem, Fossong tchuencthié, Apouh, Melang-King Place);TOILETTE PUBLIQUE
-18;188;170506;Point d'eau dans les établissements secondaires;;0;0;0;0;0;;;03 établissements disposent  d’un point d’eau (Latchouet, Fossong Tchuentchié, Melang-King Place);BORNE-FONTAINES
-19;187;170506;Etablissements secondaires privés;;0;0;0;0;0;;;01 privé;PRIVES (COLLEGE SPECIALISE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-20;186;170506;Etalbissements secondaires publics;;0;0;0;0;0;;;08 établissements   dont  07 à Fongo Tongo   (02 Lycées, 04 CES dont 02 bilingues et  01 CES bilingue  à    Fossong Ellelem) ;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
-21;185;170506;Logement pour enseignants;;0;0;0;0;0;;;10 d’un logement pour enseignants;Logements
+15;191;170506;Marches;;0;0;0;0;0;;;Mboua, Melang King Place, Latchouet, Apouh sont les 04 principaux marches periodiques et permanents. 05 autres marches secondaires  (Megueu, Ndento, Mekouale, Djeubou, Fossong Tchuentchue)  ;MARCHES
+16;190;170506;Bacs e ordures;;0;0;0;0;0;;;04 des bacs e ordures;BACS A ORDURES
+17;189;170506;Latrines dans les etablissement secondaires;;0;0;0;0;0;;;04 etablissements secondaires ont des latrines fonctionnelles (Dedah-Toufem, Fossong tchuencthie, Apouh, Melang-King Place);TOILETTE PUBLIQUE
+18;188;170506;Point d'eau dans les etablissements secondaires;;0;0;0;0;0;;;03 etablissements disposent  deun point deeau (Latchouet, Fossong Tchuentchie, Melang-King Place);BORNE-FONTAINES
+19;187;170506;Etablissements secondaires prives;;0;0;0;0;0;;;01 prive;PRIVES (COLLEGE SPECIALISE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+20;186;170506;Etalbissements secondaires publics;;0;0;0;0;0;;;08 etablissements   dont  07 e Fongo Tongo   (02 Lycees, 04 CES dont 02 bilingues et  01 CES bilingue  e    Fossong Ellelem) ;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
+21;185;170506;Logement pour enseignants;;0;0;0;0;0;;;10 deun logement pour enseignants;Logements
 22;184;170506;Latrines;;0;0;0;0;0;;;14 des latrines;TOILETTE PUBLIQUE
-23;183;170506;Point d’eau;;0;0;0;0;0;;;7 des 32 écoles disposent d’un point d’eau ;BORNE-FONTAINES
-24;182;170506;Ecole maternelle publique bilingue ;;0;0;0;0;0;;;01 école maternelle publique bilingue ;ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-25;181;170506;Ecoles maternelles de parents;;0;0;0;0;0;;;02 écoles maternelles de parents;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-26;180;170506;02 écoles privées confessionnelles;;0;0;0;0;0;;;02 écoles privées confessionnelles;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-27;179;170506;Ecole primaire  de parents;;0;0;0;0;0;;;01 école primaire  de parents;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-28;178;170506;Ecoles primaires publiques ;;0;0;0;0;0;;;26 écoles primaires publiques (avec une école bilingue);ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
+23;183;170506;Point deeau;;0;0;0;0;0;;;7 des 32 ecoles disposent deun point deeau ;BORNE-FONTAINES
+24;182;170506;Ecole maternelle publique bilingue ;;0;0;0;0;0;;;01 ecole maternelle publique bilingue ;ECOLES MATERNELLES PUBLIQUES (ANGLOPHONE,BILINGUE, FRANCOPHONE)
+25;181;170506;Ecoles maternelles de parents;;0;0;0;0;0;;;02 ecoles maternelles de parents;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+26;180;170506;02 ecoles privees confessionnelles;;0;0;0;0;0;;;02 ecoles privees confessionnelles;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+27;179;170506;Ecole primaire  de parents;;0;0;0;0;0;;;01 ecole primaire  de parents;ECOLES PRIMAIRES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+28;178;170506;Ecoles primaires publiques ;;0;0;0;0;0;;;26 ecoles primaires publiques (avec une ecole bilingue);ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
 35;171;180401;Poste forestier;;0;0;0;0;0;;;;POSTE FORESTIER
-43;163;180401;Colleges Privés;;0;0;0;0;0;;;;PRIVES (COLLEGE SPECIALISE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-50;156;180401;Centre de santé intégré;;0;0;0;0;0;;;;CSI (Centre de Santé Intégré)
+43;163;180401;Colleges Prives;;0;0;0;0;0;;;;PRIVES (COLLEGE SPECIALISE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+50;156;180401;Centre de sante integre;;0;0;0;0;0;;;;CSI (Centre de Sante Integre)
 53;153;180401;Hopital de district;;0;0;0;0;0;;;;HOPITAL DE DISTRICT
 55;151;180401;Cliniques;;0;0;0;0;0;;;;CLINIQUES
-60;146;180401;Lycée technique;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
+60;146;180401;Lycee technique;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
 61;145;180401;CETIC;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
 62;144;180401;CES;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
-63;143;180401;Lycées d'enseignement général;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
+63;143;180401;Lycees d'enseignement general;;0;0;0;0;0;;;;PUBLIQUES (CES, CETIC, LYCEE CLASSIQUE, LYCEE  BILINGUE, LYCEE TECHNIQUE)
 71;135;180401;Ecoles Primaires Publiques;;0;0;0;0;0;;;;ECOLES PRIMAIRES PUBLIQUES  (ANGLOPHONE,BILINGUE, FRANCOPHONE)
-73;133;180401;Ecoles Maternelles Privées;;0;0;0;0;0;;;;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAÏC, CATHOLIQUE,  ISLAMIQUE)
-77;129;180401;Forages;;0;0;0;0;0;;;;FORAGES (à motricité humaine, à énergie solaire, électrique)
-81;125;180401;Point d'eau;;0;0;0;0;0;;;;PUITS (ouverts, aménagés, à bâches, à réservoir, à motricité humaine, à énergie solaire, électrique)
-82;124;180401;puits;;0;0;0;0;0;;;;PUITS (ouverts, aménagés, à bâches, à réservoir, à motricité humaine, à énergie solaire, électrique)
-94;95;180401;Sous-Préfecture;;0;0;0;0;0;;;;SOUS-PREFECTURE
+73;133;180401;Ecoles Maternelles Privees;;0;0;0;0;0;;;;ECOLES MATERNELLES PRIVEES ( SPECIALISEE, LAeC, CATHOLIQUE,  ISLAMIQUE)
+77;129;180401;Forages;;0;0;0;0;0;;;;FORAGES (e motricite humaine, e energie solaire, electrique)
+81;125;180401;Point d'eau;;0;0;0;0;0;;;;PUITS (ouverts, amenages, e beches, e reservoir, e motricite humaine, e energie solaire, electrique)
+82;124;180401;puits;;0;0;0;0;0;;;;PUITS (ouverts, amenages, e beches, e reservoir, e motricite humaine, e energie solaire, electrique)
+94;95;180401;Sous-Prefecture;;0;0;0;0;0;;;;SOUS-PREFECTURE
 96;97;180401;Commisariat;;0;0;0;0;0;;;;COMMISSARIAT 
 98;99;180401;Gendamerie;;0;0;0;0;0;;;;GENDARMERIE
-100;101;180401;Une délégation d’arrondissement ;;0;0;0;0;0;;;;DAADER (Délégation d'Arrondissement de l'Agriculture et du Développement Rural)
+100;101;180401;Une delegation dearrondissement ;;0;0;0;0;0;;;;DAADER (Delegation d'Arrondissement de l'Agriculture et du Developpement Rural)
 107;108;180401;Postes agricoles d'Ambam;;0;0;0;0;0;;;;POSTES AGRICOLES

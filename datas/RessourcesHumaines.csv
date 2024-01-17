@@ -1,41 +1,41 @@
-Données Pays;
-Libellé :;Cameroun
-Régions :;10
-Départements :;58
-Communes :;360
-Communautés Urbaines :;14
-Population (Recensement 2005);27 744 989 Hbts
-Population (Projetée 2022);27 744 989 Hbts
-Date de l’Indépendance :;1er Janvier 11960
-Date de la Réunification :;1er Octobre 1961
-Date de l’Unification :;20 mai 1972
-Superficie :;475 440 Km2
-Densité :;58 Hbts/Km2  (valeur calculée)
-Carte administrative du Pays;SIG (Carte des Régions et des Départements)
-Président de la République;Paul Biya
-Président du Sénat;
-Président de l'Assemblée Natioale;
+Donnees Pays;
+Libelle :;Cameroun
+Regions:;10
+Departements:;58
+Communes:;360
+Communautes Urbaines:;14
+Population (Recensement 2005);27 744 989 Hbts
+Population (Projetee 2022);27 744 989 Hbts
+Date de l Independance:;1er Janvier 11960
+Date de la Reunification:;1er Octobre 1961
+Date de l Unification:;20 mai 1972
+Superficie:;475 440 Km2
+Densite:;58 Hbts/Km2  (valeur calculee)
+Carte administrative du Pays;SIG (Carte des Regions et des Departements)
+President de la Republique;Paul Biya
+President du Senat;
+President de l'Assemblee Natioale;
 Premier Ministre;
 Drapeau;
 Hymne Nationale;
-Fêtes légales;
+Fetes legales;
 Capitale Administrative;
-Site Interner de la Présidence de la République;
+Site Interner de la Presidence de la Republique;
 Site Interner de la Primature;
 ;
-Liste des Régions ( Population RGP : 2005   -   Projetée : 2023P);
-(Classer les Régions par ordre alphabétique);
+Liste des Regions ( Population RGP: 2005   -   Projetee: 2023P);
+(Classer les Regions par ordre alphabetique);
 ;
 Liste des Secteurs (Montant, Nombre de projets, Pourcentage);
 (Chaque secteur regroupe un ou plusieurs chapitres);
-(Classer les Secteurs par ordre alphabétique);
+(Classer les Secteurs par ordre alphabetique);
 ;
-Liste des Chapitres représentent les ministères (Montant, Nombre de projets, Pourcentage);
-(Classer les chapitres par ordre alphabétique);
-Ls Missions du Ministère;
+Liste des Chapitres representent les ministeres (Montant, Nombre de projets, Pourcentage);
+(Classer les chapitres par ordre alphabetique);
+Ls Missions du Ministere;
 Le Ministre;
-Ministres Délégués;
-Secrétaires d'Etat;
+Ministres Delegues;
+Secretaires d'Etat;
 Directeurs;
-Liste des acteurs sont des administrations, des organismes, des Partenaires Techniques et Financiers (PTF), des lignes budgétaires ou tous ceux qui financent les projets dans les CTD.;
-(Classer les acteurs par ordre alphabétique);
+Liste des acteurs sont des administrations, des organismes, des Partenaires Techniques et Financiers (PTF), des lignes budgetaires ou tous ceux qui financent les projets dans les CTD.;
+(Classer les acteurs par ordre alphabetique);

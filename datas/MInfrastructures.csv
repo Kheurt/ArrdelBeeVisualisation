@@ -1,7 +1,7 @@
-N° Enr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastructure
+NEnr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastructure
 67;Abattoirs;0931;RURALES;67;0
-35;Adduction d’eau en eau potable (AEP) (borne-fontaine, forage,  Sources aménagées…);0832;INFRASTRUCTURES;35;0
-13;Aire de séchage (sous le soleil) des produits agricoles;0930;RURALES;13;0
+35;Adduction deeau en eau potable (AEP) (borne-fontaine, forage, eSources amenageese);0832;INFRASTRUCTURES;35;0
+13;Aire de sechage (sous le soleil) des produits agricoles;0930;RURALES;13;0
 215;aires de jeux;0523;INFRASTRUCTURES;215;0
 121;Animation;0545;INFRASTRUCTURES;121;0
 122;Antenne relais;0545;INFRASTRUCTURES;122;0
@@ -9,64 +9,64 @@ N° Enr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastruc
 68;Atelier de fabrication des embarcations;0931;RURALES;68;0
 145;Attractions touristiques;0523;INFRASTRUCTURES;145;0
 237;Axe lourd;0836;INFRASTRUCTURES;237;0
-36;Bacs de récupération des ordures  ménagers;0832;INFRASTRUCTURES;36;0
-69;Bain détiqueur ;0931;RURALES;69;0
+36;Bacs de recuperation des ordures  menagers;0832;INFRASTRUCTURES;36;0
+69;Bain detiqueur ;0931;RURALES;69;0
 213;Banque;0320;BATIMENTS ET EQUIPEMENTS COLLECTIFS;213;0
 178;Barrages;0836;INFRASTRUCTURES;178;0
-37;Barrages hydroélectriques;0832;INFRASTRUCTURES;37;0
+37;Barrages hydroelectriques;0832;INFRASTRUCTURES;37;0
 227;BEAC;0000;INFRASTRUCTURES;227;0
-146;Bibliothèques;0523;INFRASTRUCTURES;146;0
+146;Bibliotheques;0523;INFRASTRUCTURES;146;0
 208;Boucherie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;208;0
 210;Boulangerie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;210;0
 19;boutiques;0921;EQUIPEMENTS;19;0
 179;Buse;0836;INFRASTRUCTURES;179;0
-99;Câbles;0000;EQUIPEMENTS;99;0
-28;Carrière d'argile;0837;INFRASTRUCTURES;28;0
-29;Carrière de gravier;0837;INFRASTRUCTURES;29;0
-30;Carrière de latérite;0837;INFRASTRUCTURES;30;0
-31;Carrière de pierre;0837;INFRASTRUCTURES;31;0
-32;Carrière de sable;0837;INFRASTRUCTURES;32;0
-33;Carrière Pouzzolane;0837;INFRASTRUCTURES;33;0
-131;Case de santé;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;131;0
+99;Cebles;0000;EQUIPEMENTS;99;0
+28;Carriere d'argile;0837;INFRASTRUCTURES;28;0
+29;Carriere de gravier;0837;INFRASTRUCTURES;29;0
+30;Carriere de laterite;0837;INFRASTRUCTURES;30;0
+31;Carriere de pierre;0837;INFRASTRUCTURES;31;0
+32;Carriere de sable;0837;INFRASTRUCTURES;32;0
+33;Carriere Pouzzolane;0837;INFRASTRUCTURES;33;0
+131;Case de sante;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;131;0
 14;CEAC;0930;RURALES;14;0
 38;Centrales thermiques;0832;INFRASTRUCTURES;38;0
 232;centre culturel communal;0514;INFRASTRUCTURES;232;0
-70;Centre d’alevinage;0931;RURALES;70;0
-71;Centre de Contrôle Sanitaire;0931;RURALES;71;0
+70;Centre dealevinage;0931;RURALES;70;0
+71;Centre de Contrele Sanitaire;0931;RURALES;71;0
 216;centre de la promotion de la femme;0243;BATIMENTS ET EQUIPEMENTS COLLECTIFS;216;0
-39;Centre d’enfouissement;0832;INFRASTRUCTURES;39;0
-132;Centre de santé intégré (CSI);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;132;0
-133;Centre de santé/médical (CS/M);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;133;0
-1;Centre d'état civil;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;1;0
-23;Centre de télévision communautaire;0517;INFRASTRUCTURES;23;0
-40;Centre de traitement des déchets;0832;INFRASTRUCTURES;40;0
+39;Centre deenfouissement;0832;INFRASTRUCTURES;39;0
+132;Centre de sante integre (CSI);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;132;0
+133;Centre de sante/medical (CS/M);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;133;0
+1;Centre d'etat civil;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;1;0
+23;Centre de television communautaire;0517;INFRASTRUCTURES;23;0
+40;Centre de traitement des dechets;0832;INFRASTRUCTURES;40;0
 41;Centre de tri;0832;INFRASTRUCTURES;41;0
-134;Centre médical d’arrondissement CMA);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;134;0
-135;Centre médical pénitentiel;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;135;0
+134;Centre medical dearrondissement CMA);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;134;0
+135;Centre medical penitentiel;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;135;0
 219;Centre multifonctionnel et promotion des jeunes;0426;BATIMENTS ET EQUIPEMENTS COLLECTIFS;219;0
-24;Centre multimédia;0517;INFRASTRUCTURES;24;0
+24;Centre multimedia;0517;INFRASTRUCTURES;24;0
 147;Centres culturels;0523;INFRASTRUCTURES;147;0
-148;Centres d'accueil et d'hébergement (hôtels, motels, auberges, appartements, studios ou chambres ;0523;INFRASTRUCTURES;148;0
+148;Centres d'accueil et d'hebergement (hetels, motels, auberges, appartements, studios ou chambres ;0523;INFRASTRUCTURES;148;0
 94;Centres de formations professionnelles;0425;BATIMENTS ET EQUIPEMENTS COLLECTIFS;94;0
-136;"""Centres hospitaliers spécialisés (Centres de formation et réinsertion sociale centres de réhabilita";0000;0640;136;0
+136;"""Centres hospitaliers specialises (Centres de formation et reinsertion sociale centres de rehabilita";0000;0640;136;0
 230;centre social;0742;BATIMENTS ET EQUIPEMENTS COLLECTIFS;230;0
-72;Centre vétérinaire;0931;RURALES;72;0
+72;Centre veterinaire;0931;RURALES;72;0
 73;Centre zootechnique;0931;RURALES;73;0
-74;Centre Zootechnique et de Contrôle Sanitaire;0931;RURALES;74;0
-75;Centre Zootechnique et de Contrôle Sanitaire et Vétérinaire;0931;RURALES;75;0
-76;Centre zootechnique et vétérinaire;0931;RURALES;76;0
+74;Centre Zootechnique et de Contrele Sanitaire;0931;RURALES;74;0
+75;Centre Zootechnique et de Contrele Sanitaire et Veterinaire;0931;RURALES;75;0
+76;Centre zootechnique et veterinaire;0931;RURALES;76;0
 77;Chambre froide;0931;RURALES;77;0
 78;Champs fourragers;0931;RURALES;78;0
 217;chefferies;0327;BATIMENTS ET EQUIPEMENTS COLLECTIFS;217;0
 149;Chefferie traditionnelle;0523;INFRASTRUCTURES;149;0
 241;Chemin de fer;0846;INFRASTRUCTURES;241;0
-150;Chutes d’eau;0523;INFRASTRUCTURES;150;0
+150;Chutes deeau;0523;INFRASTRUCTURES;150;0
 100;Climatiseurs / ventilateurs / Plafonniers;0000;EQUIPEMENTS;100;0
 137;Cliniques;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;137;0
 2;Commissariat;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;2;0
 233;commissariat special de police;0213;BATIMENTS ET EQUIPEMENTS COLLECTIFS;233;0
 206;Comptoirs;0921;INFRASTRUCTURES;206;0
-101;Consommables (Encres, Formats, Bic…);0000;EQUIPEMENTS;101;0
+101;Consommables (Encres, Formats, Bice);0000;EQUIPEMENTS;101;0
 151;Cours d'eau;0523;INFRASTRUCTURES;151;0
 15;DAADER;0930;RURALES;15;0
 221;DAAS;0742;BATIMENTS ET EQUIPEMENTS COLLECTIFS;221;0
@@ -75,31 +75,31 @@ N° Enr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastruc
 180;Dalot;0836;INFRASTRUCTURES;180;0
 222;DASEP;0516;BATIMENTS ET EQUIPEMENTS COLLECTIFS;222;0
 80;DDEPIA;0931;RURALES;80;0
-42;Décharge;0832;INFRASTRUCTURES;42;0
-3;Délégation (Arrondissement, Département, Région);0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;3;0
+42;Decharge;0832;INFRASTRUCTURES;42;0
+3;Delegation (Arrondissement, Departement, Region);0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;3;0
 220;Delegation d'arrondissement des forets et de la faune;0033;BATIMENTS ET EQUIPEMENTS COLLECTIFS;220;0
-43;Dépôts de produits pétroliers;0832;INFRASTRUCTURES;43;0
+43;Depets de produits petroliers;0832;INFRASTRUCTURES;43;0
 181;Digue;0836;INFRASTRUCTURES;181;0
 138;Dispensaire;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;138;0
 102;Documentations / Archives;0000;EQUIPEMENTS;102;0
 63;Ecole maternelle ;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;63;0
-64;Ecole préscolaire ;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;64;0
+64;Ecole prescolaire ;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;64;0
 65;Ecole primaire ;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;65;0
-97;Ecoles de formations spécialisées;0418;BATIMENTS ET EQUIPEMENTS COLLECTIFS;97;0
+97;Ecoles de formations specialisees;0418;BATIMENTS ET EQUIPEMENTS COLLECTIFS;97;0
 152;Eglises;0523;INFRASTRUCTURES;152;0
-44;Électrification décentralisée;0832;INFRASTRUCTURES;44;0
-170;Engins aériens (Hélicoptères, Avions, Jets privés…);0846;EQUIPEMENTS;170;0
-171;Engins Agricoles (Tracteurs…);0846;EQUIPEMENTS;171;0
+44;electrification decentralisee;0832;INFRASTRUCTURES;44;0
+170;Engins aeriens (Helicopteres, Avions, Jets privese);0846;EQUIPEMENTS;170;0
+171;Engins Agricoles (Tracteurse);0846;EQUIPEMENTS;171;0
 172;Engins de manutention;0846;EQUIPEMENTS;172;0
-173;Engins ferroviaires (Trains…);0846;EQUIPEMENTS;173;0
-174;Engins maritimes (Bacs à moteurs, Canoés, Chaloupes, Bateaux, Yotes…);0846;EQUIPEMENTS;174;0
-175;Engins pour travaux publics (Caterpillar, Niveleuses…);0846;EQUIPEMENTS;175;0
-95;Enseignement secondaire Général ;0425;BATIMENTS ET EQUIPEMENTS COLLECTIFS;95;0
+173;Engins ferroviaires (Trainse);0846;EQUIPEMENTS;173;0
+174;Engins maritimes (Bacs e moteurs, Canoes, Chaloupes, Bateaux, Yotese);0846;EQUIPEMENTS;174;0
+175;Engins pour travaux publics (Caterpillar, Niveleusese);0846;EQUIPEMENTS;175;0
+95;Enseignement secondaire General ;0425;BATIMENTS ET EQUIPEMENTS COLLECTIFS;95;0
 96;Enseignement secondaire Technique;0425;BATIMENTS ET EQUIPEMENTS COLLECTIFS;96;0
-98;Enseignement supérieur;0418;BATIMENTS ET EQUIPEMENTS COLLECTIFS;98;0
-202;Entrepôts;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;202;0
+98;Enseignement superieur;0418;BATIMENTS ET EQUIPEMENTS COLLECTIFS;98;0
+202;Entrepets;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;202;0
 236;EPAB;0930;RURALES;236;0
-211;Épicerie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;211;0
+211;epicerie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;211;0
 103;Equipements de Protection Individuel (EPI) et Collectifs (EPC);0000;EQUIPEMENTS;103;0
 45;Espaces verts;0832;INFRASTRUCTURES;45;0
 205;Etalages;0921;INFRASTRUCTURES;205;0
@@ -107,45 +107,45 @@ N° Enr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastruc
 104;Fibres optiques;0000;EQUIPEMENTS;104;0
 153;fleuves;0523;INFRASTRUCTURES;153;0
 154;Foires;0523;INFRASTRUCTURES;154;0
-46;Forage (motricité humaine, énergie solaire, électrique);0832;INFRASTRUCTURES;46;0
-155;Forêts sacrées;0523;INFRASTRUCTURES;155;0
+46;Forage (motricite humaine, energie solaire, electrique);0832;INFRASTRUCTURES;46;0
+155;Forets sacrees;0523;INFRASTRUCTURES;155;0
 47;Fosses septiques;0832;INFRASTRUCTURES;47;0
 234;foyer municipal;0514;BATIMENTS ET EQUIPEMENTS COLLECTIFS;234;0
 4;Gendarmerie;0213;BATIMENTS ET EQUIPEMENTS COLLECTIFS;4;0
 183;Grand bourbier;0836;INFRASTRUCTURES;183;0
 156;Grottes;0523;INFRASTRUCTURES;156;0
-48;Groupe électrogène;0832;INFRASTRUCTURES;48;0
+48;Groupe electrogene;0832;INFRASTRUCTURES;48;0
 204;Hangars;0921;INFRASTRUCTURES;204;0
-139;Hôpital (District, Département, Régional, Confessionnel ...);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;139;0
-5;Hôtel de ville;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;5;0
+139;Hepital (District, Departement, Regional, Confessionnel ...);0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;139;0
+5;Hetel de ville;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;5;0
 226;hotellerie;0514;INFRASTRUCTURES;226;0
 105;Imprimantes ;0000;EQUIPEMENTS;105;0
 229;Industrie SOTRADIPAL;0419;INFRASTRUCTURES;229;0
 66;Inspections;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;66;0
 25;Internet;0517;INFRASTRUCTURES;25;0
-123;Internet / réseaux sociaux;0545;INFRASTRUCTURES;123;0
+123;Internet / reseaux sociaux;0545;INFRASTRUCTURES;123;0
 16;IRAD;0930;RURALES;16;0
 157;Jardins botaniques;0523;INFRASTRUCTURES;157;0
 140;Laboratoires;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;140;0
 158;Lacs;0523;INFRASTRUCTURES;158;0
 106;Lames/Cutters;0000;EQUIPEMENTS;106;0
 49;Latrines;0832;INFRASTRUCTURES;49;0
-176;Les autres engins : Vélo, Moto, Tricycle, Brouettes, pousse-pousse;0846;EQUIPEMENTS;176;0
-159;Lieux de culte et de prière;0523;INFRASTRUCTURES;159;0
+176;Les autres enginse: Velo, Moto, Tricycle, Brouettes, pousse-pousse;0846;EQUIPEMENTS;176;0
+159;Lieux de culte et de priere;0523;INFRASTRUCTURES;159;0
 107;Logiciels;0000;EQUIPEMENTS;107;0
-17;Machine à sécher (cacao, café…);0930;RURALES;17;0
+17;Machine e secher (cacao, cafe);0930;RURALES;17;0
 201;Magasins;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;201;0
-18;Magasins de séchage de produits Agricoles;0930;RURALES;18;0
+18;Magasins de sechage de produits Agricoles;0930;RURALES;18;0
 6;Mairie;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;6;0
-20;Marché de vente des produits agricoles;0930;RURALES;20;0
-81;Marché de vente des produits de l’élevage;0931;RURALES;81;0
-203;Marchés;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;203;0
-82;Mares (pour abreuvement des bêtes);0931;RURALES;82;0
+20;Marche de vente des produits agricoles;0930;RURALES;20;0
+81;Marche de vente des produits de leelevage;0931;RURALES;81;0
+203;Marches;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;203;0
+82;Mares (pour abreuvement des betes);0931;RURALES;82;0
 184;Marre;0836;INFRASTRUCTURES;184;0
-109;Matériels de bureau ;0000;EQUIPEMENTS;109;0
-108;Matériels d’entretien;0000;EQUIPEMENTS;108;0
-110;Matériels et équipements de manufactures;0000;EQUIPEMENTS;110;0
-111;Matières premières;0000;EQUIPEMENTS;111;0
+109;Materiels de bureau ;0000;EQUIPEMENTS;109;0
+108;Materiels deentretien;0000;EQUIPEMENTS;108;0
+110;Materiels et equipements de manufactures;0000;EQUIPEMENTS;110;0
+111;Matieres premieres;0000;EQUIPEMENTS;111;0
 212;Menuiserie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;212;0
 214;Microfinance;0415;BATIMENTS ET EQUIPEMENTS COLLECTIFS;214;0
 21;MINADER;0930;RURALES;21;0
@@ -153,91 +153,91 @@ N° Enr.;MInfrastructure;IDCadre;TInfrastructures;IDMInfrastructure;IDTInfrastruc
 160;Montagnes;0523;INFRASTRUCTURES;160;0
 161;Monuments;0523;INFRASTRUCTURES;161;0
 141;Morgues;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;141;0
-185;Murs de soutènement / gabions;0836;INFRASTRUCTURES;185;0
-162;Musée;0523;INFRASTRUCTURES;162;0
+185;Murs de soutenement / gabions;0836;INFRASTRUCTURES;185;0
+162;Musee;0523;INFRASTRUCTURES;162;0
 113;Ordinateurs complets;0000;EQUIPEMENTS;113;0
 114;Outils de maintenance;0000;EQUIPEMENTS;114;0
-7;Palais des congrès;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;7;0
-242;Palais municipal de congré;0000;BATIMENTS ET EQUIPEMENTS COLLECTIFS;242;0
+7;Palais des congres;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;7;0
+242;Palais municipal de congre;0000;BATIMENTS ET EQUIPEMENTS COLLECTIFS;242;0
 50;Panneaux solaires;0832;INFRASTRUCTURES;50;0
-83;Parc à bétail;0931;RURALES;83;0
-163;Parc d’attraction;0523;INFRASTRUCTURES;163;0
-84;Parc d'élevage;0931;RURALES;84;0
+83;Parc e betail;0931;RURALES;83;0
+163;Parc deattraction;0523;INFRASTRUCTURES;163;0
+84;Parc d'elevage;0931;RURALES;84;0
 86;Parcours/couloir de transhumance;0931;RURALES;86;0
 85;Parc piroguiers;0931;RURALES;85;0
 164;Parcs / zoo;0523;INFRASTRUCTURES;164;0
 238;Parkings;0836;INFRASTRUCTURES;238;0
 240;peage;0836;INFRASTRUCTURES;240;0
-87;Pêcheries;0931;RURALES;87;0
-88;Pépinières;0931;RURALES;88;0
+87;Pecheries;0931;RURALES;87;0
+88;Pepinieres;0931;RURALES;88;0
 142;Pharmacie;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;142;0
 115;Photocopieuses;0000;EQUIPEMENTS;115;0
 124;Photographie;0545;INFRASTRUCTURES;124;0
-116;Pièces de rechange;0000;EQUIPEMENTS;116;0
+116;Pieces de rechange;0000;EQUIPEMENTS;116;0
 165;Plages;0523;INFRASTRUCTURES;165;0
-186;Point obscure sans éclairage;0836;INFRASTRUCTURES;186;0
+186;Point obscure sans eclairage;0836;INFRASTRUCTURES;186;0
 209;Poissonnerie;0921;BATIMENTS ET EQUIPEMENTS COLLECTIFS;209;0
-187;Pont /Buse en très mauvais état;0836;INFRASTRUCTURES;187;0
+187;Pont /Buse en tres mauvais etat;0836;INFRASTRUCTURES;187;0
 188;Ponts;0836;INFRASTRUCTURES;188;0
 89;Porcherie;0931;RURALES;89;0
 125;Poste;0545;INFRASTRUCTURES;125;0
 231;Poste de controle forestier;0033;BATIMENTS ET EQUIPEMENTS COLLECTIFS;231;0
 22;Postes agricoles;0930;RURALES;22;0
 90;Postes forestiers;0931;RURALES;90;0
-117;Postes téléphoniques;0000;EQUIPEMENTS;117;0
-51;Poteaux installés;0832;INFRASTRUCTURES;51;0
+117;Postes telephoniques;0000;EQUIPEMENTS;117;0
+51;Poteaux installes;0832;INFRASTRUCTURES;51;0
 91;Poulaillers / fermes avicoles;0931;RURALES;91;0
-8;Préfecture;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;8;0
-189;Présence de pierre ou objets difficilement déplaçable sur des voies terrestres;0836;INFRASTRUCTURES;189;0
-52;Prise d'eau (Captages, Châteaux, Barrages);0832;INFRASTRUCTURES;52;0
+8;Prefecture;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;8;0
+189;Presence de pierre ou objets difficilement deplaeable sur des voies terrestres;0836;INFRASTRUCTURES;189;0
+52;Prise d'eau (Captages, Cheteaux, Barrages);0832;INFRASTRUCTURES;52;0
 9;Prison;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;9;0
 143;Propharmacien;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;143;0
-53;Puits (ouverts, aménagés, bâche, réservoir, à motricité humaine, à énergie solaire, électriques);0832;INFRASTRUCTURES;53;0
+53;Puits (ouverts, amenages, beche, reservoir, e motricite humaine, e energie solaire, electriques);0832;INFRASTRUCTURES;53;0
 92;Puits pastoraux;0931;RURALES;92;0
-126;Pylône;0545;INFRASTRUCTURES;126;0
+126;Pylene;0545;INFRASTRUCTURES;126;0
 127;Radio;0545;INFRASTRUCTURES;127;0
 190;Ravin sans garde-fou;0836;INFRASTRUCTURES;190;0
 118;Relieuses;0000;EQUIPEMENTS;118;0
-54;Réseau Camwater;0832;INFRASTRUCTURES;54;0
-55;Réseau d'électrification;0832;INFRASTRUCTURES;55;0
+54;Reseau Camwater;0832;INFRASTRUCTURES;54;0
+55;Reseau d'electrification;0832;INFRASTRUCTURES;55;0
 56;Reseau ENEO;0832;INFRASTRUCTURES;56;0
-128;Réseaux téléphoniques;0545;INFRASTRUCTURES;128;0
-166;Réserves;0523;INFRASTRUCTURES;166;0
-167;Réserves forestières;0523;INFRASTRUCTURES;167;0
+128;Reseaux telephoniques;0545;INFRASTRUCTURES;128;0
+166;Reserves;0523;INFRASTRUCTURES;166;0
+167;Reserves forestieres;0523;INFRASTRUCTURES;167;0
 191;Route glissante;0836;INFRASTRUCTURES;191;0
-192;Routes inondées;0836;INFRASTRUCTURES;192;0
+192;Routes inondees;0836;INFRASTRUCTURES;192;0
 93;Salines;0931;RURALES;93;0
 225;salle de gymnastique;0516;BATIMENTS ET EQUIPEMENTS COLLECTIFS;225;0
-168;Salles de Cinéma;0523;INFRASTRUCTURES;168;0
-169;Salles de fête;0523;INFRASTRUCTURES;169;0
+168;Salles de Cinema;0523;INFRASTRUCTURES;168;0
+169;Salles de fete;0523;INFRASTRUCTURES;169;0
 235;SAR-SM;0735;BATIMENTS ET EQUIPEMENTS COLLECTIFS;235;0
 119;Scanners;0000;EQUIPEMENTS;119;0
-26;Secrétariat bureautique;0517;INFRASTRUCTURES;26;0
-57;Sources aménagées;0832;INFRASTRUCTURES;57;0
-58;Sources non aménagées;0832;INFRASTRUCTURES;58;0
-10;Sous-préfecture;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;10;0
+26;Secretariat bureautique;0517;INFRASTRUCTURES;26;0
+57;Sources amenagees;0832;INFRASTRUCTURES;57;0
+58;Sources non amenagees;0832;INFRASTRUCTURES;58;0
+10;Sous-prefecture;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;10;0
 223;Stade de football;0516;BATIMENTS ET EQUIPEMENTS COLLECTIFS;223;0
 207;Stands;0921;INFRASTRUCTURES;207;0
 239;Station de pesage;0836;INFRASTRUCTURES;239;0
-59;Stations d'épuration des eaux;0832;INFRASTRUCTURES;59;0
+59;Stations d'epuration des eaux;0832;INFRASTRUCTURES;59;0
 60;Station-service;0832;INFRASTRUCTURES;60;0
-144;Structure de formation du personnel médical;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;144;0
-129;Télé;0545;INFRASTRUCTURES;129;0
+144;Structure de formation du personnel medical;0640;BATIMENTS ET EQUIPEMENTS COLLECTIFS;144;0
+129;Tele;0545;INFRASTRUCTURES;129;0
 224;terrain de tennis;0516;BATIMENTS ET EQUIPEMENTS COLLECTIFS;224;0
 34;Terrains;0837;INFRASTRUCTURES;34;0
 61;Toilettes publiques (modernes, mobiles);0832;INFRASTRUCTURES;61;0
 120;Traceurs;0000;EQUIPEMENTS;120;0
 62;Transformateurs;0832;INFRASTRUCTURES;62;0
 11;Tribunal;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;11;0
-12;Tribunes de fête;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;12;0
+12;Tribunes de fete;0307;BATIMENTS ET EQUIPEMENTS COLLECTIFS;12;0
 193;Tunnel;0836;INFRASTRUCTURES;193;0
-177;Véhicules de service (Pick-up, Camions…);0846;EQUIPEMENTS;177;0
-27;Vendeur de matériel informatique;0517;INFRASTRUCTURES;27;0
+177;Vehicules de service (Pick-up, Camionse);0846;EQUIPEMENTS;177;0
+27;Vendeur de materiel informatique;0517;INFRASTRUCTURES;27;0
 194;Viaduc;0836;INFRASTRUCTURES;194;0
 195;Virage dangereux;0836;INFRASTRUCTURES;195;0
 130;WIFI;0545;INFRASTRUCTURES;130;0
-196;Zone d’éboulement / glissement de terrain;0836;INFRASTRUCTURES;196;0
+196;Zone deeboulement / glissement de terrain;0836;INFRASTRUCTURES;196;0
 197;Zone de grand bosquet;0836;INFRASTRUCTURES;197;0
-198;Zone de marécage;0836;INFRASTRUCTURES;198;0
+198;Zone de marecage;0836;INFRASTRUCTURES;198;0
 199;Zone de pente;0836;INFRASTRUCTURES;199;0
 200;zone de sable mouvant;0836;INFRASTRUCTURES;200;0

@@ -444,7 +444,7 @@ class Infrastructure (models.Model):
     NWPT = models.CharField(max_length=255)
     Beneficiaire = models.CharField(max_length=255)
     Date = models.CharField(max_length=255)
-    Observation = models.CharField(max_length=255)
+    Observation = models.TextField()
     GroupeInfrastructure = models.CharField(max_length=255)
 
 
@@ -517,7 +517,7 @@ class PotentialitesDesZones(models.Model):
     Enr = models.IntegerField()
     ID_Potentialite = models.CharField(max_length=255)
     IDZoneIDCadre = models.CharField(max_length=255)
-    Potentialites = models.CharField(max_length=255)
+    Potentialites = models.TextField()
     Ressources = models.CharField(max_length=255)
     IDZone = models.CharField(max_length=255)
     IDCadre = models.CharField(max_length=255)
@@ -539,7 +539,7 @@ class Probleme(models.Model):
     IDZoneIDCadre = models.CharField(max_length=255)
     ID_Probleme = models.CharField(max_length=255)
     IDProbleme = models.CharField(max_length=255)
-    Probleme = models.CharField(max_length=255)
+    Probleme = models.TextField()
     IDZone = models.CharField(max_length=255)
     Archive = models.CharField(max_length=255)
     IDCadre = models.CharField(max_length=255)
@@ -608,7 +608,7 @@ class ProvenanceFinance(models.Model):
     DateFin = models.CharField(max_length=255)
     MontantPrevu = models.CharField(max_length=255)
     MontantRealise = models.CharField(max_length=255)
-    Observation = models.CharField(max_length=255)
+    Observation = models.TextField()
 
 """
 N° Enr.
