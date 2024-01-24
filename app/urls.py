@@ -1,6 +1,7 @@
 from django.urls import path, include
 from .views import *
 from .upload_data import *
+from .upload_database import upload_database
 
 from rest_framework import routers
 
@@ -9,7 +10,21 @@ router.register('pays', PaysViewset),
 router.register('localite', LocaliteViewset),
 router.register('zone', ZoneViewset),
 router.register('paysageUrbain', PaysageUrbainViewset),
+router.register('finance', FinanceViewset),
+router.register('financement', FinancementViewset),
+router.register('infrastructure', InfrastructureViewset),
+router.register('minfrastructure', MInfrastructureViewset),
+router.register('ministere', MinistereViewset),
+router.register('oddcible', ODDCibleViewset),
+router.register('potentialitesDesZones', PotentialitesDesZonesViewset),
+router.register('probleme', ProblemeViewset),
+router.register('programmesDesMinisteres', ProgrammesDesMinistereViewset),
+router.register('provenancesFinances', ProvenanceFinanceViewset),
+router.register('region', RegionViewset),
+router.register('ressources', RessourcesViewset),
+# router.register('ressourceHumaine', RessourcesHumainesViewSet),
 router.register('ressourceZone', RessourceZoneViewset),
+
 
 # Pays
 # Localite
@@ -19,6 +34,7 @@ router.register('ressourceZone', RessourceZoneViewset),
 
 urlpatterns = [
     path('', include(router.urls)), 
+    path('upload', upload_database),
     path('upload/finance', upload_finance),
     path('upload/financement', upload_financement),
     path('upload/infrastructure', upload_infrastructure),

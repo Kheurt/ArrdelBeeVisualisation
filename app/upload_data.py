@@ -61,10 +61,10 @@ def upload_financement(request):
         for row in csv_reader:
             print(f"Importing Financement {row[0]}...")
             ressource_zone = Financement(
-                enr = int(row[0]),
+                Enr = int(row[0]),
                 ID_Source = int(row[1]),
                 ID_Finance = int(row[2]),
-                IDTFinance = int(row[3]) if type(row[3]) == str and int(row[3][1]) == str else 0, #fdf
+                IDTFinance = row[3],
                 Provenance = row[4],
                 DateDebut = row[5],
                 DateFin = row[6],
@@ -183,7 +183,7 @@ def upload_localite(request):
 @api_view(['GET', 'POST'])
 # read csv file and use MInfrastructure model to add in database
 def upload_m_infrastructure(request):
-    data = './datas/MInfrastructure.csv'
+    data = './datas/MInfrastructures.csv'
     # read csv file
     with open(data, 'r') as file:
         csv_reader = csv.reader(file, delimiter=';')
@@ -217,11 +217,16 @@ def upload_ministere(request):
             print(f"Importing Ministere {row[0]}...")
             ministere = Ministere(
                 Enr = row[0],
-                IDMinistere = row[1],
-                Libelle = row[2],
-                LibelleAng = row[3],
-                Responsable = row[4],
-                Ministere = row[5],
+                IDSecteur = row[1],
+                IDChapitre = row[2],
+                CodeChapitre = row[3],
+                Libelle = row[4],
+                LibelleAng = row[5],
+                Responsable = row[6],
+                Ministere = row[7],
+                Objectifs = row[8],
+                Description = row[9],
+                Strategie = row[10],
             )
             ministere.save()
     return Response(MinistereSerializer(ministere).data)
@@ -240,10 +245,10 @@ def upload_oddcible(request):
             print(f"Importing ODDCible {row[0]}...")
             odd_cible = ODDCible(
                 Enr = row[0],
-                IDODDCibles = row[0],
-                IDChapitre = row[0],
-                IDCorrelation = row[0],
-                ID = row[0],
+                IDODDCibles = row[1],
+                IDChapitre = row[2],
+                IDCorrelation = row[3],
+                ID = row[4],
             )
             odd_cible.save()
     return Response(ODDCibleSerializer(odd_cible).data)
@@ -315,7 +320,7 @@ def upload_paysage_urbain(request):
 @api_view(['GET', 'POST'])
 # read csv file and use PotentialiteDesZones model to add in database
 def upload_potentialite_des_zones(request):
-    data = './datas/PotentialiteDesZones.csv'
+    data = './datas/PotentialitesDesZones.csv'
     # read csv file
     with open(data, 'r') as file:
         csv_reader = csv.reader(file, delimiter=';')
@@ -367,7 +372,7 @@ def upload_probleme(request):
 @api_view(['GET', 'POST'])
 # read csv file and use ProgrammeDesMinisteres model to add in database
 def upload_programme_des_ministeres(request):
-    data = './datas/Probleme.csv'
+    data = './datas/ProgrammesDesMinisteres.csv'
     # read csv file
     with open(data, 'r') as file:
         csv_reader = csv.reader(file, delimiter=';')
@@ -389,12 +394,12 @@ def upload_programme_des_ministeres(request):
                 Date_debut = row[9],
                 Date_fin = row[10],
                 Montant = row[11],
-                Responsable = row[13],
-                Description = row[14],
-                Axes = row[15],
-                Strategie = row[16],
-                Resultats = row[17],
-                hypothese = row[18],
+                Responsable = row[12],
+                Description = row[13],
+                Axes = row[14],
+                Strategie = row[15],
+                Resultats = row[16],
+                hypothese = row[17],
             )
             probleme.save()
     return Response(ProgrammesDesMinisteresSerializer(probleme).data)
@@ -463,7 +468,7 @@ def upload_region(request):
 @api_view(['GET', 'POST'])
 # read csv file and use ProgrammeDesMinisteres model to add in database
 def upload_ressource(request):
-    data = './datas/Ressource.csv'
+    data = './datas/Ressources.csv'
     # read csv file
     with open(data, 'r') as file:
         csv_reader = csv.reader(file, delimiter=';')
@@ -485,41 +490,6 @@ def upload_ressource(request):
     return Response(RessourceSerializer(ressource).data)
 
 
-@api_view(['GET', 'POST'])
-# read csv file and use Ressource model to add in database
-def upload_ressource(request):
-    data = './datas/Ressources.csv'
-    # read csv file
-    with open(data, 'r') as file:
-        csv_reader = csv.reader(file, delimiter=';')
-        next(csv_reader)  # skip header row
-
-        # use model to add data to the database
-        for row in csv_reader:
-            print(f"Importing Ressource Zone {row[0]}...")
-            ressource_zone = RessourceZone(
-                enr=row[0],
-                IDPRessources=row[1],
-                IDZone=row[2],
-                Ressource=row[3],
-                Caracteristique=row[4],
-                UtilisationActuelle=row[5],
-                Potentialite=row[6],
-                Contrainte=row[7],
-                ActionaMener=row[8],
-                AccesControle=row[9],
-                Archive=row[10],
-                IDSource=row[11],
-                MiseAJour=row[12],
-                CoordX=row[13],
-                CoordY=row[14],
-                CoordZ=row[15],
-                ModeGestion=row[16],
-                Tendances=row[17]
-            )
-            ressource_zone.save()
-    return Response(RessourceZoneSerializer(ressource_zone).data)
-
 # @api_view(['GET', 'POST'])
 # # read csv file and use RessourcesHumaines model to add in database
 # def upload_ressource_humaines(request):
@@ -532,11 +502,11 @@ def upload_ressource(request):
 #         # use model to add data to the database
 #         for row in csv_reader:
 #             print(f"Importing RessourcesHumaines {row[0]}...")
-#             ressource_humaine = RessourceZone(
+#             ressource_humaine = RessourcesHumaines(
                 
 #             )
 #             ressource_humaine.save()
-#     return Response(RessourceZoneSerializer(ressource_humaine).data)
+#     return Response(RessourcesHumainesSerializer(ressource_humaine).data)
 
 
 

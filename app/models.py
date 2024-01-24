@@ -354,6 +354,9 @@ class Ressource(models.Model):
     NomCommercial = models.CharField(max_length=255)
     IDTypesRessouces = models.CharField(max_length=255)
 
+    def __str__(self) -> str:
+        return f"Ressource N°{self.enr}"
+
 
 """
 N° Enr.
@@ -389,6 +392,9 @@ class Finance(models.Model):
     RPrevu = models.FloatField()
     RRealise = models.FloatField()
 
+    def __str__(self) -> str:
+        return f"Finance N°{self.enr}"
+
 """
 N° Enr.
 ID_Source
@@ -407,13 +413,16 @@ class Financement(models.Model):
     Enr = models.IntegerField()
     ID_Source = models.BigIntegerField()
     ID_Finance = models.BigIntegerField()
-    IDTFinance = models.BigIntegerField()
+    IDTFinance = models.CharField(max_length=255)
     Provenance = models.CharField(max_length=255)
     DateDebut = models.CharField(max_length=255)
     DateFin = models.CharField(max_length=255)
     MontantPrevu = models.FloatField()
     MontantRealise = models.FloatField()
     Observation = models.TextField()
+
+    def __str__(self) -> str:
+        return f"Financement N°{self.Enr}"
 
 """
 N° Enr.
@@ -447,6 +456,9 @@ class Infrastructure (models.Model):
     Observation = models.TextField()
     GroupeInfrastructure = models.CharField(max_length=255)
 
+    def __str__(self) -> str:
+        return f"Infrastructure N°{self.Enr}: {self.Libelle}"
+
 
 """
 N° Enr.
@@ -463,6 +475,9 @@ class MInfrastructure(models.Model):
     TInfrastructures = models.CharField(max_length=255)
     IDMInfrastructure = models.CharField(max_length=255)
     IDTInfrastructure = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"Infrastructure Ministerielle N°{self.Enr}: {self.MInfrastructure}"
 
 """
 N° Enr.
@@ -490,6 +505,9 @@ class Ministere(models.Model):
     Description = models.CharField(max_length=255)
     Strategie = models.CharField(max_length=255)
 
+    def __str__(self) -> str:
+        return f"Ministère N°{self.Enr}: {self.Libelle}"
+
 """
 N° Enr.
 IDODDCibles
@@ -503,6 +521,9 @@ class ODDCible(models.Model):
     IDChapitre = models.CharField(max_length=255)
     IDCorrelation = models.CharField(max_length=255)
     ID = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"ODD N°{self.Enr} : {self.IDODDCibles}"
 
 """
 N° Enr.
@@ -518,9 +539,12 @@ class PotentialitesDesZones(models.Model):
     ID_Potentialite = models.CharField(max_length=255)
     IDZoneIDCadre = models.CharField(max_length=255)
     Potentialites = models.TextField()
-    Ressources = models.CharField(max_length=255)
+    Ressources = models.TextField()
     IDZone = models.CharField(max_length=255)
     IDCadre = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"Potentialité N°{self.Enr}"
 
 """
 N° Enr.
@@ -545,6 +569,9 @@ class Probleme(models.Model):
     IDCadre = models.CharField(max_length=255)
     IDSource = models.CharField(max_length=255)
     _MiseAJour = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"Problème N°{self.Enr}"
 
 """
 N° Enr.
@@ -586,6 +613,9 @@ class ProgrammesDesMinisteres(models.Model):
     Resultats = models.CharField(max_length=255)
     hypothese = models.CharField(max_length=255)
 
+    def __str__(self) -> str:
+        return f"Programme N°{self.Enr}"
+
 """
 N° Enr.
 ID_Source
@@ -609,6 +639,9 @@ class ProvenanceFinance(models.Model):
     MontantPrevu = models.CharField(max_length=255)
     MontantRealise = models.CharField(max_length=255)
     Observation = models.TextField()
+
+    def __str__(self) -> str:
+        return f"N°{self.Enr} : {self.ID_Source}"
 
 """
 N° Enr.
@@ -641,4 +674,7 @@ class Region(models.Model):
     NbDepartement = models.CharField(max_length=255)
     NbCommune = models.CharField(max_length=255)
     NbLocalite = models.CharField(max_length=255)
+
+    def __str__(self) -> str:
+        return f"Région N°{self.Enr}: {self.Libelle}"
 

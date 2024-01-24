@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Country',
+            name='Pays',
             fields=[
                 ('id', models.BigAutoField(primary_key=True, serialize=False)),
                 ('enr', models.IntegerField()),

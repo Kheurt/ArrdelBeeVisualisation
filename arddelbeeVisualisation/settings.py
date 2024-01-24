@@ -43,6 +43,12 @@ INSTALLED_APPS = [
     'utils',
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 100
+}
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -92,8 +98,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'HOST': 'localhost',
         'PORT': '5432',
-        'NAME': 'arddelbee', #arrdelbee
-        'USER': 'postgres',
+        'NAME': 'ardelbee', #arddelbee, #arrdelbee #ardel
+        'USER': 'postgres', 
         'PASSWORD': 'rootpass',
     }
 }
